@@ -1,4 +1,4 @@
-package com.assignmentscheduler.Services;
+package com.assignmentscheduler.services;
 
 import com.assignmentscheduler.models.Assignment;
 import com.assignmentscheduler.models.Schedule;
@@ -11,6 +11,7 @@ import java.util.GregorianCalendar;
 
 @Service
 public class SchedulingService {
+
 
   /**
    * An 'earliest deadline first' algorithm that schedules the assignments by sorting them by their deadline and
